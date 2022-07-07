@@ -45,3 +45,10 @@
 .topnav p{
     float: right;
 }
+
+.row{
+    background-image: linear-gradient(#081829,#002D62,#2E5090);
+    padding: 160px;
+}
+
+.
