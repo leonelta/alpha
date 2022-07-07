@@ -48,7 +48,28 @@
 
 .row{
     background-image: linear-gradient(#081829,#002D62,#2E5090);
-    padding: 160px;
+    padding: 159px;
 }
 
-.
+.column.side{
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    bottom: 135px;
+    left: 60px;
+    background-color: #0066b2;
+    padding: 10px;
+    width: 250px;
+    height: 365px;
+    
+}
+.column.side ul{
+    color: white;
+    list-style-type: none;
+}
+
+.column.side ul li{
+    color: white;
+    padding: 7px;
+    margin: 4px;
+}
