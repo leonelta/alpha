@@ -47,6 +47,7 @@
 }
 
 .row{
+    display: flex;
     background-image: linear-gradient(#081829,#002D62,#2E5090);
     padding: 159px;
 }
@@ -70,7 +71,7 @@
 
 .column.side ul li{
     color: white;
-    padding: 7px;
+    padding: 6px;
     margin: 4px;
-    outline: thin;
+    font-size: 16px;
 }
