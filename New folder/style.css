@@ -49,7 +49,7 @@
 .row{
     display: flex;
     background-image: linear-gradient(#081829,#002D62,#2E5090);
-    padding: 80px;
+    padding: 100px;
     margin: auto;
 }
 
@@ -80,5 +80,41 @@
 .main{
     flex: 15%;
     margin-right: 280px;
-    
+    border: 5px solid #0066b2;
+    border-radius: 8px;
+    position: relative;
+    bottom: 55px;
+    left: 100px;
+    background-color: white;
+    padding-bottom: 28px;  
+    padding-left: 15px;
+    padding-top: 10px;
+    line-height: 1.5;
+     
+}
+
+.main h3{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-bottom: 9px;
+}
+
+.main p{
+    background-color: #0066b2;
+    color: white;
+    padding: 7px;
+    margin-bottom: 7px;
+    margin-right: 8px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    text-align: center;
+    padding: 5px;
+    border: 1px dotted black;
+    margin-right: 14px;
 }
