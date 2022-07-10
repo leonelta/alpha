@@ -61,7 +61,7 @@
     left: 90px;
     background-color: #0066b2;
     padding: 10px;
-    width: 250px;
+    width: 230px;
     height: 405px;
     
 }
@@ -72,8 +72,8 @@
 
 .column.side ul li{
     color: white;
-    padding: 9px;
-    margin: 4px;
+    padding: 7px;
+    margin: 3px;
     font-size: 16px;
 }
 
