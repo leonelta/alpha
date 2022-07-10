@@ -99,3 +99,35 @@
     margin-bottom: 9px;
     color: #0066b2;
 }
+
+input[type=text], input[type=email], input[type=number]{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+label {
+    padding: 6px 6px 3px 0;
+    display: inline-block;
+  }
+
+.col-25{
+    float: left;
+    width: 25%;
+    margin-top: 3px;
+}
+
+.col-75{
+    float: left;
+    width: 35%;
+    margin-top: 3px;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
