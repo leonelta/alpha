@@ -13,7 +13,7 @@
 .header h1{
     font-size: 50px;
     position: relative;
-    left: 86px;
+    left: 120px;
 }
 
 .header p{
@@ -38,7 +38,7 @@
     text-decoration: none;
     font-size: 20px;
     position: relative;
-    left: 80px;
+    left: 120px;
     bottom: 15px;
 }
 
@@ -49,19 +49,20 @@
 .row{
     display: flex;
     background-image: linear-gradient(#081829,#002D62,#2E5090);
-    padding: 159px;
+    padding: 80px;
+    margin: auto;
 }
 
 .column.side{
     border-radius: 15px;
     color: white;
     position: relative;
-    bottom: 135px;
-    left: 60px;
+    bottom: 55px;
+    left: 90px;
     background-color: #0066b2;
     padding: 10px;
     width: 250px;
-    height: 365px;
+    height: 405px;
     
 }
 .column.side ul{
@@ -71,38 +72,81 @@
 
 .column.side ul li{
     color: white;
-    padding: 6px;
+    padding: 9px;
     margin: 4px;
     font-size: 16px;
 }
 
 .main{
     flex: 15%;
-    margin-right: 90px;
+    margin-right: 280px;
     
 }
 
 .one{
-    border: 2px solid #0066b2;
-    border-radius: 5px;
+    border: 5px solid #0066b2;
+    border-radius: 8px;
     position: relative;
-    bottom: 135px;
-    left: 90px;
+    bottom: 55px;
+    left: 100px;
     background-color: white;
-    padding: 30px;    
+    padding-bottom: 28px;  
+    padding-left: 15px;
+    padding-top: 10px;
+     
 }
+
+.one h3
+{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 
 .one img{
     float: right;
+    padding-right: 100px;
+    padding-top: 50px;
 }
 
 .two{
-    border: 2px solid #0066b2;
+    border: 5px solid #0066b2;
     border-radius: 5px;
     position: relative;
-    bottom: 135px;
-    left: 90px;
+    bottom: 55px;
+    left: 100px;
     background-color: white;
-    padding: 30px;    
+    padding: 20px;    
+    margin-top: 20px;
 }
 
+.two h3{
+    font-size: 20px;
+}
+
+.col{
+    float: left;
+    padding: 6px;
+}
+
+.col h4{
+    font-size: 19px;
+    padding-bottom: 5px;
+}
+
+.col p{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.col a{
+    font-size: 15px;
+   
+}
+
+.two::after{
+    content: "";
+    clear: both;
+    display: table;
+}
