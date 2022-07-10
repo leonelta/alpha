@@ -49,7 +49,7 @@
 .row{
     display: flex;
     background-image: linear-gradient(#081829,#002D62,#2E5090);
-    padding: 90px;
+    padding: 80px;
     margin: auto;
 }
 
@@ -57,11 +57,11 @@
     border-radius: 15px;
     color: white;
     position: relative;
-    bottom: 65px;
+    bottom: 55px;
     left: 90px;
     background-color: #0066b2;
     padding: 10px;
-    width: 250px;
+    width: 230px;
     height: 405px;
     
 }
@@ -72,8 +72,8 @@
 
 .column.side ul li{
     color: white;
-    padding: 9px;
-    margin: 4px;
+    padding: 7px;
+    margin: 3px;
     font-size: 16px;
 }
 
@@ -83,7 +83,7 @@
     border: 5px solid #0066b2;
     border-radius: 8px;
     position: relative;
-    bottom: 65px;
+    bottom: 55px;
     left: 100px;
     background-color: white;
     padding-bottom: 28px;  
@@ -97,25 +97,5 @@
     font-size: 20px;
     padding-top: 5px;
     margin-bottom: 9px;
-}
-
-.main p{
-    background-color: #0066b2;
-    color: white;
-    padding: 9px;
-    margin-bottom: 7px;
-    margin-right: 20px;
-}
-
-table{
-    width: 80%;
-    border-collapse: collapse;
-    margin: 5px;
-}
-
-th,td{
-    text-align: center;
-    padding: 5px;
-    border: 1px dotted black;
-    margin-right: 14px;
+    color: #0066b2;
 }
